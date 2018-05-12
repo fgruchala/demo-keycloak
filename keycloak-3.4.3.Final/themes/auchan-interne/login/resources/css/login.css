@@ -1,0 +1,25 @@
+.login-form {
+    width: 300px;
+    position: absolute;
+    top: 35%;
+    left: calc(50% - 150px);
+}
+
+.login-form .login-box {
+    padding-bottom: 30px;
+}
+
+.login-btn-submit {
+    position: relative;
+    left: calc(50% - 28px);
+    top: -28px;
+}
+
+.login-form .login-box .login-box__content {
+    padding: 10px;
+}
+
+.login-form .login-box .login-box__content .login-input,
+.login-form .login-box .login-box__content .login-input .mdc-text-field {
+    width: 100%;
+}
